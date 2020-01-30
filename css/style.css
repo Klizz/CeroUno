@@ -50,7 +50,11 @@ h3 {
 }
 
 .pic {
+<<<<<<< HEAD
     margin-top: -250px;
+=======
+    margin-top: -150px;
+>>>>>>> 363c417522b3ef3e144ff2f2a0877cc931220afb
     position: relative;
     text-align: center;
 }
