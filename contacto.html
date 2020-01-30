@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contacto</title>
 </head>
+
 <body>
-    <h1>Contacto</h1>
+    <nav>
+        <div class="nav-wrapper" style="
+        background-color: #896872;
+        ">
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="./index.html">
+                        Sobre mi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-bottom: 200px;">
+        <h1>Contacto</h1>
+        <div class="row">
+            <div class="col s6" style="padding-top: 100px;">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">Nombre</label>
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+                <textarea id="textarea1" class="materialize-textarea" style="height: 100px;"></textarea>
+                <label for="textarea1">Mensaje</label><br><br>
+                <button class="btn boton" type="submit" name="action"
+                    onclick="alertar()">Enviar</button>
+            </div>
+            <div class="col s6" style="padding-left: 90px;">
+                <h3>Envíame un mesaje para contactarme :)</h3>
+                <div class="center-align">
+                    <p>También me puedes encontrar en redes sociales</p>
+                    <a href="https://www.facebook.com/klizy"><img src="./icons/facebook.svg" alt="" height="50px"
+                            style="padding-right: 50px;"></a>
+                    <a href="/"><img src="./icons/gorjeo.svg" alt="" height="50px" style="padding-right: 50px;"></a>
+                    <a href="https://www.instagram.com/klizzibarra/?hl=es-la"><img src="./icons/instagram.svg" alt=""
+                            height="50px"></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function alertar() {
+            alert("Aún no se enviar cosas pero buen intento");
+        }
+    </script>
+
+    <footer class="page-footer" style="background-color: #896872">
+        <div class="container">
+            <h5 class="white-text">Aquí va todo lo que utilicé para hacer esta página</h5>
+            <ul>
+                <li><a href="https://materializecss.com/">Materialize</a></li>
+                <li><a href="https://www.flaticon.es/">Flaticon</a></li>
+                <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+                <li><a href="https://mycolor.space/">ColorSpace</a></li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+
+        </div>
+    </footer>
+
 </body>
+
 </html>
