@@ -1,0 +1,33 @@
+p {
+    font-size: 1.2em;
+}
+
+.hero {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(171, 62, 91, 1),
+    rgba(239, 116, 111, 1)
+  );
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+}
+
+.hero-inner {
+  width: 100vw;
+  color: white;
+}
+
+.pic {
+    margin-top: -300px;
+    position: relative;
+    text-align: center;
+}
+
+.profile {
+    border: 7px solid white;
+    width: 400px;
+}
